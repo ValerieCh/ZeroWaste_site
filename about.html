@@ -9,21 +9,22 @@
 <body>
     <header>
         <h1>ZEROWaste</h1>
-        <img src="img/search.png" alt="Пошук на сайті">
+        <img src="img/search.png" alt="Пошук на сайті" height="30" width="30">
         <nav>
             <ul>
-                <li>Про нас</li>
-                <li>Статті</li>
-                <li>Екокрамниця</li>
-                <li>Новини</li>
+                <li><a href="about.html">ПРО НАС</a></li>
+                <li>СТАТТІ</li>
+                <li>ЕКОКРАМНИЦЯ</li>
+                <li>НОВИНИ</li>
             </ul>
-
+        <br>
         </nav>
+        
     </header>
 
     <main>
         <section>
-            <h3>ПРО НАС</h3>
+            <h3>Про нас</h3>
             <p>Ми розпочали свою діяльність у 2017 році як ініціативна спільнота жителів міста, яка надавала консультації
            міській владі в розробці рішень для реформування системи поводження з твердими побутовими відходами. 
            А надалі - розробці системи з мінімізації ТПВ і відповідального споживання.</p>
@@ -31,14 +32,14 @@
         </section>
 
         <section>
-            <h3>НАША КОМАНДА</h3>
+            <h3>Наша команда</h3>
+            <br>
             <figure>
-                <img src="img/person_team.png" alt="Зображення голови організації Наталії Богомол">
-                <figcaption>Наталія Богомол</figcaption>
-                <figcaption>голова</figcaption>
+                <img src="img/person_team.png" alt="Зображення голови організації Наталії Богомол" height="200" width="200">
+                <p>Наталія Богомол <br> голова</p>
                 <figure>
-                    <img src="img/logo_instagram.png" alt="Логотип Інстаграм">
-                    <img src="img/logo_facebook.png" alt="Логотип Facebook">
+                    <img src="img/logo_instagram.png" alt="Логотип Інстаграм" height="20" width="20">
+                    <img src="img/logo_facebook.png" alt="Логотип Facebook" height="20" width="20">
                 </figure>
             </figure>
         </section>
@@ -46,27 +47,57 @@
         <section>
             <h3>Наші партнери</h3>
             <img src="img/lviv_miska_rada.png" alt="Львівська міська рада">
-
         </section>
 
         <section>
-            <h3></h3>
-            <p>Ви можете надіслати нам листа на електронну пошту hello@zerowastelife.org.ua, 
-               написати повідомлення в соціальних мережах, або заповнити форму розташовану праворуч. 
-               Обирайте зручний для вас спосіб. Ми обов’язково відповімо.</p>
+            <h3>Контакти</h3>
+            <p>Ви можете надіслати нам листа на електронну пошту hello@zerowaste.com, <br> 
+               написати повідомлення в соціальних мережах, або заповнити форму <br>
+               розташовану праворуч.Обирайте зручний для вас спосіб. Ми обов’язково відповімо.</p>
             <figure>
-                <img src="img/logo_instagram.png" alt="Логотип Інстаграм">
-                <img src="img/logo_facebook.png" alt="Логотип Facebook">
+                <img src="img/logo_instagram.png" alt="Логотип Інстаграм" height="20" width="20">
+                <img src="img/logo_facebook.png" alt="Логотип Facebook" height="20" width="20">
             </figure>
-            <form action="">
+            <form action="/action_page.php">
                 <input type="text" name="name"  id="name" placeholder="Ваше ім'я" required><br><br>
                 <input type="email" name="email" id="email" placeholder="Ваш Email" required><br><br>
-                <textarea name="message" id="clients message" cols="30" rows="10" placeholder="Ваше повідомлення" required></textarea><br><br>
+                <textarea name="message" id="clients_message" cols="30" rows="10" placeholder="Ваше повідомлення" required></textarea><br><br>
                 <input type="submit" >
             </form>
 
         </section>
     </main>
+
+    <footer>
+        <ul>
+            <li>
+                <ul>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li>Команда </li>
+                    <li>Партнери</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>Статті</li>
+                    <li>Новини</li>
+                </ul>
+            </li>
+            <li>ЕкоКрамниця</li>
+            <li>
+                <ul>
+                    <li>Контакти</li>
+                    <li>hello@zerowaste.com</li>
+                    <li>
+                        <figure>
+                            <img src="img/logo_instagram.png" alt="Логотип Інстаграм" height="20" width="20">
+                            <img src="img/logo_facebook.png" alt="Логотип Facebook" height="20" width="20">
+                        </figure>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
 
 </body>
 </html>
