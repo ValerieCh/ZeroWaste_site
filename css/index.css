@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    --main-color: #1c1a36;
+    --accent-color: white;
+    color: var(--main-color);
+    scroll-behavior: smooth;
+}
+
+header nav h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+header nav .search {
+    height: 2rem;
+    width: 2rem;
+}
+
+header nav .top-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+header nav .top-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+
+}
